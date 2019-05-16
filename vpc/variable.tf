@@ -1,1 +1,2 @@
-variable "vpc-cidr" {}
+variable "vpc_1_cidr" {}
+variable "project" {}

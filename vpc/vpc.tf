@@ -1,6 +1,6 @@
-resource "aws_vpc" "vpc-1" {
-  cidr_block = "${var.vpc-cidr}"
-}
-resource "aws_internet_gateway" "igw-1" {
-  vpc_id = "${aws_vpc.vpc-1.id}"
+resource "aws_vpc" "vpc_1" {
+  cidr_block = "${var.vpc_1_cidr}"
+  tags {
+    Name = "vpc-${var.project}"
+  }
 }
