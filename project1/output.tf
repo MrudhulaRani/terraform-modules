@@ -1,3 +1,3 @@
-output "vpc-id" {
-  value = "${module.vpc1.vpc-id}"
+output "vpc-1_id" {
+  value = "${module.vpc_1.vpc-id}"
 }
