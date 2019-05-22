@@ -1,2 +1,2 @@
-variable "iam_group_1_name" {}
-variable "iam_group_1_path_url" {}
+variable "iam_group_name" {}
+variable "iam_group_path_url" {}
