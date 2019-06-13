@@ -1,0 +1,9 @@
+variable "ec2_client_vpn_endpoint_description" {}
+variable "ACM_server_certificate_arn" {}
+variable "client_cidr_block" {}
+variable "client_authentication_type" {}
+variable "acm_client_certificate_arn" {}
+variable "active_directory_id" {}
+variable "connection_logging_enable" {}
+variable "cloudwatch_log_group_name" {}
+variable "cloudwatch_log_stream_name" {}
