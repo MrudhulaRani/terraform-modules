@@ -1,0 +1,16 @@
+variable "s3_bucket_name" {}
+variable "object_name" {}
+variable "path_to_file" {}
+variable "object_canned_acl_private" {}
+#variable "etag" {}
+variable "kms_key_id_arn" {}
+variable "object_server_side_encryption" {}
+variable "target_url_website_redirect" {}
+variable "object_storage_class" {}
+variable "object_tag_name" {}
+variable "object_tag_value" {}
+variable "cache_control" {}
+variable "content_disposition" {}
+variable "content_encoding" {}
+variable "content_language" {}
+variable "content_type" {}
