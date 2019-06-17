@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362230de-7b9e-4da7-88e5-7375c20865d9" name="Default Changelist" comment="adding aws_iam_policy module">
+    <list default="true" id="362230de-7b9e-4da7-88e5-7375c20865d9" name="Default Changelist" comment="adding ec2 modules">
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/google_service_account.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/output.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/variable.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/google_service_account_access_token.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/output.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/variable.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/google_service_account_key.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/output.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/variable.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/s3_resources_modules/f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/s3_resources_modules/f1" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/s3_bucket_public_access_block.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/output.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,57 +29,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/iam_group/iam_group.tf" />
-        <option value="$PROJECT_DIR$/iam_group/output.tf" />
-        <option value="$PROJECT_DIR$/iam_group/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_policy_attachment/iam_user_policy_attachment.tf" />
-        <option value="$PROJECT_DIR$/iam_user_policy_attachment/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_policy_attachment/output.tf" />
-        <option value="$PROJECT_DIR$/iam_policy/output.tf" />
-        <option value="$PROJECT_DIR$/iam_user_group_membership/iam_user_group_membership.tf" />
-        <option value="$PROJECT_DIR$/iam_user_group_membership/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_group_membership/output.tf" />
-        <option value="$PROJECT_DIR$/iam_group_membership/iam_group_membership.tf" />
-        <option value="$PROJECT_DIR$/iam_group_membership/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_group_membership/output.tf" />
-        <option value="$PROJECT_DIR$/iam_group_policy/iam_group_policy.tf" />
-        <option value="$PROJECT_DIR$/iam_group_policy/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_group_policy/output.tf" />
-        <option value="$PROJECT_DIR$/iam_group_policy_attachment/iam_group_policy_attachment.tf" />
-        <option value="$PROJECT_DIR$/iam_group_policy_attachment/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_ssh_key/iam_user_ssh_key.tf" />
-        <option value="$PROJECT_DIR$/iam_user_ssh_key/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_ssh_key/output.tf" />
-        <option value="$PROJECT_DIR$/iam_user_login_profile/variables.tf" />
-        <option value="$PROJECT_DIR$/iam_user_login_profile/iam_user_login_profile.tf" />
-        <option value="$PROJECT_DIR$/iam_user_login_profile/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/aws_iam_access_key/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/aws_iam_access_key/aws_iam_access_key.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/aws_iam_access_key/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/iam_account_alias.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/iam_account_password_policy.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/aws_iam_account_password_policy.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/iam_instance_profile.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/iam_openid_connect_provider.tf" />
-        <option value="$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ebs_volume/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ebs_volume/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_capacity_reservation/ec2_capacity_reservation.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_capacity_reservation/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_capacity_reservation/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_endpoint/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_endpoint/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_endpoint/ec2_client_vpn_endpoint.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_network_association/ec2_client_vpn_network_association.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_network_association/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/ec2_client_vpn_network_association/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/key_pair/key_pair.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/key_pair/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/key_pair/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/instance/variable.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/instance/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/instance/instance.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/placement_group.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/variable.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/snapshot_create_volume_permission.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/variable.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/spot_datafeed_subscription.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/variable.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/volume_attachment.tf" />
+        <option value="$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/s3_bucket.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/variables.tf" />
         <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/s3_account_public_access_block.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/s3_bucket_public_access_block.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/s3_bucket_policy.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/variables.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/output.tf" />
-        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/s3_bucket_inventory.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/output.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/variables.tf" />
         <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/s3_bucket_metric.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/s3_bucket_notification.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/s3_bucket_object.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/variables.tf" />
+        <option value="$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/output.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/google_service_account.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/output.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/variable.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/google_service_account_access_token.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/google_service_account_key.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/variable.tf" />
+        <option value="$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/output.tf" />
       </list>
     </option>
   </component>
@@ -90,7 +98,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,18 +113,38 @@
             <path>
               <item name="terraform-modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="AWS" type="462c0819:PsiDirectoryNode" />
-              <item name="s3_resources_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="GCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform-modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="GCP" type="462c0819:PsiDirectoryNode" />
+              <item name="gcp_data_sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform-modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="GCP" type="462c0819:PsiDirectoryNode" />
+              <item name="gcp_data_sources" type="462c0819:PsiDirectoryNode" />
+              <item name="google_service_account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform-modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="GCP" type="462c0819:PsiDirectoryNode" />
+              <item name="gcp_data_sources" type="462c0819:PsiDirectoryNode" />
+              <item name="google_service_account_key" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="TF_FMT" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559725150223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560770232479" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -142,27 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557849009991</updated>
-    </task>
-    <task id="LOCAL-00001" summary="adding vpc and internetgateway module">
-      <created>1557989441445</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1557989441445</updated>
-    </task>
-    <task id="LOCAL-00002" summary="adding route table,subnet,security group and instance modules">
-      <created>1557996752530</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1557996752530</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added some features in project1">
-      <created>1557999152591</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1557999152591</updated>
     </task>
     <task id="LOCAL-00004" summary="adding aws_iam_user_module">
       <created>1558445879152</created>
@@ -353,13 +359,195 @@
       <option name="project" value="LOCAL" />
       <updated>1559716034033</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="adding s3 modules">
+      <created>1559725212997</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1559725212997</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding ec2 modules">
+      <created>1559931145948</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559931145948</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adding ec2 modules">
+      <created>1559931322260</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559931322260</updated>
+    </task>
+    <task id="LOCAL-00034" summary="adding ec2 modules">
+      <created>1559984402819</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1559984402820</updated>
+    </task>
+    <task id="LOCAL-00035" summary="adding ec2 modules">
+      <created>1559985302963</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1559985302963</updated>
+    </task>
+    <task id="LOCAL-00036" summary="adding ec2 modules">
+      <created>1559985598600</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1559985598600</updated>
+    </task>
+    <task id="LOCAL-00037" summary="adding ec2 modules">
+      <created>1559986662101</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1559986662101</updated>
+    </task>
+    <task id="LOCAL-00038" summary="adding ec2 modules">
+      <created>1559997550126</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1559997550126</updated>
+    </task>
+    <task id="LOCAL-00039" summary="adding ec2 modules">
+      <created>1559998488725</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1559998488725</updated>
+    </task>
+    <task id="LOCAL-00040" summary="adding ec2 modules">
+      <created>1560361352719</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560361352719</updated>
+    </task>
+    <task id="LOCAL-00041" summary="adding ec2 modules">
+      <created>1560429261301</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1560429261301</updated>
+    </task>
+    <task id="LOCAL-00042" summary="adding ec2 modules">
+      <created>1560429614462</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560429614462</updated>
+    </task>
+    <task id="LOCAL-00043" summary="adding ec2 modules">
+      <created>1560429931689</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560429931689</updated>
+    </task>
+    <task id="LOCAL-00044" summary="adding ec2 modules">
+      <created>1560430202717</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560430202717</updated>
+    </task>
+    <task id="LOCAL-00045" summary="adding ec2 modules">
+      <created>1560430447010</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560430447010</updated>
+    </task>
+    <task id="LOCAL-00046" summary="adding ec2 modules">
+      <created>1560430657346</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1560430657346</updated>
+    </task>
+    <task id="LOCAL-00047" summary="adding ec2 modules">
+      <created>1560430883054</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1560430883054</updated>
+    </task>
+    <task id="LOCAL-00048" summary="adding ec2 modules">
+      <created>1560431310279</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560431310279</updated>
+    </task>
+    <task id="LOCAL-00049" summary="adding s3 modules">
+      <created>1560703091396</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560703091396</updated>
+    </task>
+    <task id="LOCAL-00050" summary="adding s3 modules">
+      <created>1560756838090</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560756838090</updated>
+    </task>
+    <task id="LOCAL-00051" summary="adding s3 modules">
+      <created>1560764862831</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1560764862832</updated>
+    </task>
+    <task id="LOCAL-00052" summary="adding s3 modules">
+      <created>1560767266571</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1560767266571</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,11 +573,9 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding aws_iam_group_module" />
-    <MESSAGE value="adding iam_role module" />
     <MESSAGE value="adding iam_policy_attachment module" />
     <MESSAGE value="adding iam_role_policy module" />
     <MESSAGE value="adding iam_role_policy_attachment module" />
@@ -413,229 +599,309 @@
     <MESSAGE value="adding s3_account_public_access_block module" />
     <MESSAGE value="adding s3_bucket_public_access_block module" />
     <MESSAGE value="adding s3 module" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding s3 module" />
+    <MESSAGE value="adding ec2 modules" />
+    <MESSAGE value="adding s3 modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding s3 modules" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/variable.tf" />
-    <entry file="file://$PROJECT_DIR$/project1/output.tf" />
-    <entry file="file://$PROJECT_DIR$/vpc/vpc.tf" />
-    <entry file="file://$PROJECT_DIR$/internet_gateway/internet_gateway.tf" />
-    <entry file="file://$PROJECT_DIR$/route_table/route_table.tf" />
-    <entry file="file://$PROJECT_DIR$/route/route.tf" />
-    <entry file="file://$PROJECT_DIR$/subnet/subnet.tf" />
-    <entry file="file://$PROJECT_DIR$/route_table_association/route_table_association.tf" />
-    <entry file="file://$PROJECT_DIR$/security_group_rule/security_group_rule.tf" />
-    <entry file="file://$PROJECT_DIR$/security_group/security_group.tf" />
-    <entry file="file://$PROJECT_DIR$/instance/instance.tf" />
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_user_policy/iam_user_policy.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_access_key/output.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_access_key/iam_access_key.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_access_key/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/iam_account_alias.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/variables.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/vpc_resources_modules/instance/instance.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <caret selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_alias/output.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/variables.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_account_password_policy/aws_iam_account_password_policy.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/iam_instance_profile.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_instance_profile/output.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/iam_openid_connect_provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_openid_connect_provider/output.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/s3_account_public_access_block.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/output.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/s3_bucket_public_access_block.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/output.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/vpc_resources_modules/instance/output.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" selection-end-column="1" />
+          <caret selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/s3_bucket.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/variables.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/s3_bucket_policy.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/vpc_resources_modules/instance/variable.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/variables.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/instance/instance.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/instance/variable.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/instance/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/placement_group.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/variable.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/output.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/placement_group/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/snapshot_create_volume_permission.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="83" selection-start-column="50" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/snapshot_create_volume_permission/variable.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/output.tf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/s3_bucket_object.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/variables.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/s3_bucket_notification.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/variables.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/s3_bucket_metric.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/spot_datafeed_subscription.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/s3_bucket_inventory.tf">
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/spot_datafeed_subscription/variable.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/volume_attachment.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/ec2_resources_modules/volume_attachment/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_policy/variables.tf">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/iam_resources_modules/iam_policy/iam_policy.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/s3_bucket.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="100" column="56" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/s3_account_public_access_block.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_account_public_access_block/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/s3_bucket_inventory.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/output.tf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_inventory/variables.tf">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/s3_bucket_metric.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/variables.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_metric/output.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/s3_bucket_notification.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_notification/output.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_object/s3_bucket_object.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/s3_bucket_policy.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/output.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_policy/variables.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/s3_resources_modules/s3_bucket_public_access_block/s3_bucket_public_access_block.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/google_service_account.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/variable.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/output.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/google_service_account_access_token.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_access_token/variable.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/google_service_account_key.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" selection-start-column="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/output.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCP/gcp_data_sources/google_service_account_key/variable.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
