@@ -44,8 +44,8 @@ variable "ipv6_addresses" {}
 variable "ipv6_address_count" {}
 variable "security_groups" {}
 variable "subnet_id" {}
-variable "instance_affinity" {}
-variable "instance_availability_zone" {}
+variable "placement_instance_affinity" {}
+variable "placement_instance_availability_zone" {}
 variable "instance_placement_group_name" {}
 variable "instance_host_id" {}
 variable "spread_domain" {}

@@ -72,8 +72,8 @@ resource "aws_launch_template" "aws_launch_template" {
     subnet_id = "${var.subnet_id}"
   }
   placement {
-    affinity = "${var.instance_affinity}"
-    availability_zone = "${var.instance_availability_zone}"
+    affinity = "${var.placement_instance_affinity}"
+    availability_zone = "${var.placement_instance_availability_zone}"
     group_name = "${var.instance_placement_group_name}"
     host_id = "${var.instance_host_id}"
     spread_domain = "${var.spread_domain}"
